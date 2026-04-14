@@ -12,9 +12,9 @@ public class Main {
 		BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
 		Scanner        sc = new Scanner(System.in);
 		
-		int a = sc.nextInt();
-		int b = sc.nextInt();
-		int sum = (a+b)*(a-b);
+		long a = sc.nextLong();
+		long b = sc.nextLong();
+		long sum = (a+b)*(a-b);
 		
 		System.out.println(sum);
 		
